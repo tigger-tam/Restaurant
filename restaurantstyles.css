@@ -1,0 +1,64 @@
+/*
+Creator: Tamara
+Date created: 06/17/2019
+Date last modified: 06/17/2019
+*/
+
+Header {
+    text-align: center;
+    background-color: maroon;
+    border: 3px solid darkslategray;
+    color: cornsilk;
+    margin: "90%";
+    border-radius: 25px;
+    padding: 20px;
+}
+h1 {
+    font-family: monospace;
+    font-size: 60px;
+}
+h2{
+    font-style: italic;
+}
+body {
+    background-color: cornsilk;
+    padding: 15px;
+}
+nav {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: lightgrey;
+    color: darkslategray;
+}
+nav .btn {
+    background-color: cornsilk;
+    color: maroon;
+}
+nav a{
+    padding: 20px;
+}
+nav a:active{
+    text-decoration: none;
+}
+nav a:hover{
+    font-weight: bold;
+}
+nav a:visited{
+    color: forestgreen;
+}
+.carousel-item.active {
+    padding: 10px;
+}
+footer {
+    text-align: center;
+    background-color: maroon;
+    color: cornsilk;
+    margin: "90%";
+    border-radius: 25px;
+    padding: 20px;
+    border: 3px solid darkslategray;
+    margin-top: 40px;
+}

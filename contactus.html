@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Name: Tamara
+Date Created: 06/17/2019
+Most recent revision: 06/17/2019
+-->
+<html>
+        <head>
+        <title>Contact Us</title>
+         <link href="bootstrap.min.css" <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+            
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+    <link href="restaurantstyles.css" rel="stylesheet" type="text/css" />
+        <style>
+            form {
+                text-align: center;
+            }
+            .alnright {
+                text-align: right;
+            }
+            select {
+                width: 90%;
+            }
+            </style>
+    </head>
+    <body>
+        <div class="container">
+        <header> 
+            <h2>New Location opening in Feline Hill soon!</h2>
+        <h1>Cafe Mini</h1>
+        </header>
+        <nav>
+            <a class="btn badge-pill" href="index.html"><i class="fas fa-home"></i></a>
+            <a class="btn badge-pill" href="menu.html">Menu</a>
+            <a class="btn badge-pill" href="contactus.html">Contact Us</a>
+        </nav>
+        <section>
+            <div class="form-group">
+                <form>
+                <table align="center">
+   <tr> 
+       <td class="alnright"><b><label for="Name">Name:</label></b></td> 
+       <td><input type="text" name="Name" class="required"  required /><br /></td>
+                <tr>
+                    <td class="alnright"><b><label for="Email">Email:</label></b></td> 
+                    <td><input type="text" name="Email" class="required" required/>
+                    </td></tr>
+                <tr>
+                    <td class="alnright"><b><label for="Phone">Phone:</label></b></td> 
+                    <td><input type="text" name="Phone" class="required"  required />
+                    </td></tr>
+                <tr>
+                    <td class="alnright">Reason for Inquiry:</td> 
+                    <td><select name="reason">
+                <option value="catering">Catering</option>
+                <option value="private party">Private Party</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+                </select></td>
+                    </tr>
+                <tr>
+                    <td class="alnright"><label for="additionalinformation">Additional information:</label></td> <td><textarea name="briefDescription"></textarea></td>
+                    </tr>
+               <tr> 
+                   <td class="alnright">Have you been to Cafe Mini?:</td>
+                <td><input type="radio" name="answer" value="YES" />Yes
+                <input type="radio" name="answer" value="NO" />No</td></tr>
+               <tr> <td class="alnright">Best days to contact you:</td> 
+                <td><input type="checkbox" name="myChoices" value="monday" />M
+                <input type="checkbox" name="myChoices" value="tuesday" />T
+                <input type="checkbox" name="myChoices" value="wednesday" />W
+                <input type="checkbox" name="myChoices" value="thursday" />Th
+                <input type="checkbox" name="myChoices" value="friday" />F
+        </td></tr>
+                    </table>
+                <button type="button" onclick="myFunction()">Submit</button>
+                     <script>
+    function myFunction() {
+    var required = document.getElementsByClassName("required").value;
+        if(required !== ""){
+            alert("Input Okay");
+            return false;
+        }
+    }
+            </script>
+                   
+            </form>
+            </div>
+        </section>
+        <footer>
+            <p>888 Feline Alley, Catskills, MN, 88888</p>
+            <p>888-888-8888
+            </p>
+        </footer>
+            </div>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+    </body>
